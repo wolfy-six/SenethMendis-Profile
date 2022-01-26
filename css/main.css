@@ -1,0 +1,634 @@
+.page-container {
+    width: 100%;
+    height: auto !important;
+}
+
+.main-outer {
+    width: 100%;
+    position: fixed;
+    height: 100vh;
+    overflow: auto;
+
+}
+
+.main-outer::-webkit-scrollbar {
+    position: absolute;
+}
+
+.main-outer::-webkit-scrollbar-thumb {
+    background-color: #030f14;
+    border-radius: 6px;
+}
+
+/*--------------------- Section 1 -----------------------*/
+
+
+.section-1 {
+    width: 100%;
+    height: 750px;
+}
+
+.background-image-container {
+    width: 100%;
+    height: 750px;
+
+}
+
+.background-image {
+    width: 100%;
+    height: 750px;
+    background: url("../assets/imgs/background.png") no-repeat center;
+    background-size: cover;
+    display: flex;
+
+}
+
+.navigation-bar {
+    width: 100%;
+    height: 80px;
+    background-color: #030f14; /*backup code - 030f14 */
+    opacity: 95%;
+    position: fixed;
+
+    top: 0;
+
+}
+
+.navigation-tab-outer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.navigation-tab-sides {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation-tab-inner {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.navigation-tab-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+.navigation-tab-name a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation-signature-logo {
+    width: 300px;
+    height: 100%;
+    background-image: url("../assets/imgs/signature white.png");
+    background-size: cover;
+}
+
+
+.main-skill {
+    justify-content: center;
+    padding: 150px 100px;
+}
+
+.web-dev {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 70px;
+    color: white;
+}
+
+.intro-name {
+    margin: 25px 0;
+    font-family: 'Inconsolata', monospace;
+    font-size: 23px;
+    color: white;
+}
+
+.btn-outline-light {
+    width: 150px;
+    height: 45px;
+}
+
+/*--------------------- Section 2 -----------------------*/
+
+.section2 {
+    width: 100%;
+    height: 850px;
+    flex: 1;
+    /* background-image: url("../assets/imgs/mike-cox-zlqvQzg66Nc-unsplash.png");*/
+    background-color: white;
+    /* background-size: cover;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.about-me-outer {
+    margin: 0 20%;
+    width: 60%;
+    height: 750px;
+    background-color: #030f14;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+
+.about-me-inner-content {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    color: white;
+}
+
+.about-me {
+    padding: 25px;
+}
+
+.discription {
+    padding: 20px 0;
+}
+
+.btn-outline-light {
+
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+
+}
+
+.small-line {
+    margin: 40px 15%;
+    width: 70%;
+    height: 1.5px;
+    background-color: white;
+}
+
+.progress-bars-outer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.progress-bar-sides {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.progress-inner {
+    flex: 1;
+    padding: 0 30px; /*top right bottom left */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.skills-text {
+    text-align: left;
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+    color: white;
+}
+
+.progress-bar {
+    background-color: aqua;
+}
+
+.progress {
+    background-color: #030f14;
+    border: 1px solid aqua;
+}
+
+.progress-bar-striped {
+    background-color: #5197ff;
+}
+
+
+.random-paras {
+    padding: 0 50px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: normal;
+}
+
+/*--------------------- Section 3 -----------------------*/
+
+.section3 {
+    width: 100%;
+    height: 850px;
+    background: #030f14;
+
+}
+
+.my-Xp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.my-experties-outer {
+    width: 70%;
+    height: 700px;
+    margin: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-ep-title {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.skill-xp-discription {
+    width: 100%;
+    height: 500px;
+    margin-top: 35px;
+    display: flex;
+    border: 1px solid white;
+
+}
+
+.skill-xp-discription-sides {
+    flex: 1;
+    flex-direction: column;
+}
+
+.white {
+    background-color: white;
+}
+
+.ux-ui-wb {
+    font-family: 'Oxygen', sans-serif;
+    margin: 170px 0 0 100px; /*top right bottom left*/
+}
+
+.justDis {
+    margin: 120px 50px;
+    display: flex;
+}
+
+.justDis p {
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    font-size: 20px;
+}
+
+/*--------------------- Section 4 -----------------------*/
+.section4 {
+    width: 100%;
+    height: 1700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.experience-outer {
+    width: 70%;
+    height: 100%;
+}
+
+.experience-outer h1 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 70px;
+    padding: 100px;
+}
+
+.experience-list {
+    width: 100%;
+    height: 1428px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.ep-list-sides-inner {
+    flex: 1;
+}
+
+.ep-content-box {
+    width: 100%;
+    height: auto;
+}
+
+.ep-content-box h3 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.ep-content-box h5 {
+    padding-bottom: 20px;
+}
+
+.read-more {
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: none;
+}
+
+.read-more a {
+    text-decoration: none;
+    color: #030f14;
+}
+
+/*--------------------- Section 5 -----------------------*/
+
+.section5-outer {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section5-background-pic {
+    width: 50%;
+    height: 100%;
+    background-image: url("../assets/imgs/mohammad-rahmani-_Fx34KeqIEw-unsplash.jpg");
+    background-size: cover;
+}
+
+.section5-description {
+    width: 50%;
+    height: 100%;
+    background-color: #030f14;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.sec5-para {
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 200px 50px 70px 70px;
+}
+
+.icon-commiunity-outer {
+    width: 150px;
+    height: 150px;
+    margin-left: 400px;
+    background-image: url("../assets/imgs/communities.png");
+    background-size: cover;
+}
+
+/*--------------------- Section 6 -----------------------*/
+
+.section6-outer {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section6-inner {
+    width: 80%;
+    height: 650px;
+    display: flex;
+    margin-bottom: 25px;
+    /*dont touch*/
+
+}
+
+
+.section6-outer h1 {
+    font-size: 50px;
+    font-family: 'Oxygen', sans-serif;
+    margin: 30px 0;
+    padding-top: 30px;
+
+}
+
+
+.section6-outer {
+    flex: 1;
+}
+
+.sec6-inner-box {
+    flex: 1;
+    display: flex;
+    margin: 0 5px;
+    /*new */
+}
+
+.image-hedder-box {
+    opacity: 80%;
+    margin-top: 550px;
+    width: 100%;
+    height: 100px;
+    background-color: #030f14;
+}
+
+.sec6BG1 {
+    background-image: url("../assets/imgs/Section6/1.jpg");
+    background-size: cover;
+}
+
+.sec6BG2 {
+    background-image: url("../assets/imgs/Section6/2.jpg");
+    background-size: cover;
+}
+
+.sec6BG3 {
+    background-image: url("../assets/imgs/Section6/3.jpg");
+    background-size: cover;
+}
+
+.OL {
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+}
+
+.AL {
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+}
+
+.SLIIT {
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px;
+}
+
+.discription-box-sec6 {
+    width: 70%;
+    height: 150px;
+
+    /*discription box eka fill up karala contact section eka hadanna*/
+}
+
+
+.discription-box-sec6 h2 {
+    padding: 50px;
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*--------------------- Section 7 -----------------------*/
+.section7-outer {
+    margin: 0;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    background-color: #030f14;
+    align-items: center;
+}
+
+.section7-inner {
+    width: 70%;
+    height: inherit;
+}
+
+.section7-description {
+    color: white;
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.section7-small-line {
+    width: 70%;
+    height: 2px;
+    background-color: white;
+    margin: 0 15%;
+}
+
+.contact-container {
+    width: 100%;
+    height: 480px;
+    display: flex;
+
+}
+
+.drop-massage {
+    flex: 1;
+}
+
+.fillBox1 {
+    padding: 50px 50px;
+    color: white;
+}
+
+.message-box-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-box-content textarea {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+/*icon set eka tthiyena contct eke second half eka*/
+.fillBox2 {
+    padding: 50px 50px;
+    color: white;
+}
+
+
+.contact-me {
+
+}
+
+.contact-my-details li {
+    margin: 10px;
+    list-style: none;
+
+}
+
+.contact-my-details {
+    margin: 30px 0;
+    padding: 0;
+}
+
+.contact-my-details li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+}
+
+/*fb insta li icons */
+
+.social-media-icon {
+    margin: 30px 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+
+.social-icon {
+    flex: 1;
+    align-items: center;
+}
+
+
+.icon-outer {
+    width: 75px;
+    height: 75px;
+}
+
+.i1 {
+    background-image: url("../assets/imgs/icons/facebook.png");
+    background-size: cover;
+}
+
+.i2 {
+    background-image: url("../assets/imgs/icons/instagram.png");
+    background-size: cover;
+}
+
+.i3 {
+    background-image: url("../assets/imgs/icons/linkedin.png");
+    background-size: cover;
+}
+
+/*--------------------- Section 8 -----------------------*/
+
+.section8-outer {
+    width: 100%;
+    height: 150px;
+}
+
+.footer {
+    text-align: center;
+    justify-items: center;
+    font-family: 'Inconsolata', monospace;
+    color: #030f14;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 50px 0;
+}
+
+
+
